@@ -13,6 +13,7 @@ for (let i = 2; i < args.length; i++) {
         var val2 = stack.pop();
         stack.push(val1 - val2);
     } else if (arg === "*") {
+        // handle multiplication
         var val1 = stack.pop();
         var val2 = stack.pop();
         stack.push(val1 * val2);
